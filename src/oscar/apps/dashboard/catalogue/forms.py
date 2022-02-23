@@ -110,7 +110,7 @@ class StockRecordForm(forms.ModelForm):
     class Meta:
         model = StockRecord
         fields = [
-            'partner', 'partner_sku',
+            'partner',
             'price_currency', 'price',
             'num_in_stock', 'low_stock_threshold',
         ]
